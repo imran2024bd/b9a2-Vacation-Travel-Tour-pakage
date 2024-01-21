@@ -1,0 +1,326 @@
+/* Work Mulish font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+/* for Font Size we use rem ( here 1rem = 16px) measurement */
+
+/* shared style */
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+}
+
+.section-title {
+    margin-bottom: 25px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-light-gray {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text-color-h {
+    color: rgba(19, 19, 24, 1);
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgba(255, 84, 0, 1);
+    padding: 2px auto;
+    width: 140px;
+    height: 30px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.10 rem;
+    font-weight: 800;
+    border: 0;
+}
+
+/* header Styles */
+header {
+    background: #FFF;
+
+}
+
+.nav-container img {
+    max-width: 23px;
+    object-fit: cover;
+
+}
+
+.nav-container {
+    width: 50%;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.items-container ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgba(66, 66, 71, 1);
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.125 rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* banner style  */
+.banner-section {
+    margin: 0 135px;
+    background-image: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1170px;
+    min-height: 520px;
+   }
+
+.banner-content {
+    text-align: center;
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 106px 287px;
+}
+
+.banner-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    min-width: 768px;
+    max-height: 52px;
+    background: rgba(255, 255, 255, 0.30);
+    /* display: inline-flex; */
+    padding: 16px;
+    /* align-items: flex-start; */
+    gap: 24px;
+}
+
+/* header style end */
+
+/* popular-section style start */
+.popular-section {
+    /* border: 2px solid purple; */
+    margin: 0 135px;
+    display: flex;
+}
+
+.pupular-text {
+    width: 50%;
+    /* border: 2px solid rgb(4, 248, 37); */
+    justify-content: center;
+    align-content: center;
+
+}
+
+.pupular-text p {
+    width: 577px;
+
+}
+
+.pupular-text ul {
+    margin-left: 25px;
+    width: 525px;
+
+}
+
+.pupular-text li,
+p {
+    margin-bottom: 20px;
+    max-height: 52px;
+}
+
+.popular-img {
+    width: 50%;
+    /* border: 2px solid rgb(241, 5, 5); */
+    /* display: block; */
+}
+
+.popular-img img {
+    width: 100%;
+    /* height: 100%; */
+    /* width: 540px; */
+    height: 550px;
+    border-radius: 16px;
+
+}
+
+/* section-destination start */
+.section-destination {
+    margin-top: 50px;
+    margin: 0 135px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.destination-title {
+    margin: 0 auto;
+    align-content: center;
+}
+
+.destination-title h2 {
+    text-align: center;
+}
+
+.destination-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* section-destination end */
+/* chose-section start */
+.chose-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* card-section start */
+.card-section {
+    margin: 0 135px;
+    display: flex;
+    /* margin: 0 auto; */
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.hotel-service {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotel-service h2 {
+    font-size: 1.5rem;
+}
+
+.best-price {
+    width: 50%;
+
+}
+
+.best-price h2 {
+    font-size: 1.5rem;
+}
+
+/* card-section end */
+
+/* perfect-place start */
+.perfect-place {
+    margin: 0 135px;
+    display: flex;
+
+}
+
+.perfect-place-text {
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+.perfect-place-text li {
+    font-weight: 700;
+}
+
+.perfect-place-img {
+    width: 50%;
+}
+
+.perfect-place-img img {
+    width: 100%;
+}
+
+/* news-letter start */
+.news-letter {
+    margin: 0 135px;
+    display: flex;
+}
+
+.news-letter-text {
+    width: 50%;
+}
+
+.news-letter h2 {
+    font-size: 1.5rem;
+}
+
+.news-letter-img {
+    width: 50%;
+}
+
+.news-letter-img img {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+
+}
+
+ul>li input {
+    width: 393px;
+    height: 52px;
+    gap: 16px;
+}
+
+/* footer-section start */
+.footer-section {
+    margin: 0 auto;
+    width: 1170px;
+    height: 250px;
+    background: rgba(19, 19, 24, 0.05); 
+    align-items: center;
+
+}
+
+.line {
+    border: 1px solid rgba(19, 19, 24, 0.05);
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-right: 270px;
+    
+}
+
+.footer-heading {}
